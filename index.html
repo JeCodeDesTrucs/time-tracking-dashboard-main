@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet"> 
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+
+  <main class="container">
+    <div class="card__user">
+      <div class="card__user__infos">
+        <img src="images/image-jeremy.png" alt="Image of user" class="card__user__infos__img">
+        <div class="card__user__infos__report">Report for <span>Jeremy Robson</span></div>
+      </div>
+      <ul class="card__user__choices">
+        <li class="card__user__choices__btn"><button class="daily-btn">Daily</button></li>
+        <li class="card__user__choices__btn"><button class="weekly-btn">Weekly</button></li>
+        <li class="card__user__choices__btn"><button class="monthly-btn">Monthly</button></li>
+      </ul>
+    </div>
+    <div class="card__work">
+      <div class="card__work__bg"></div>
+      <div class="card__work__content">
+        <div class="card__work__title">
+          Work
+          <img src="images/icon-ellipsis.svg" alt="Icon of options" class="card__work__options">
+        </div>
+        <div class="card__work__infos">
+          <p class="work-time">32hrs</p>
+          <span>Previous - <p class="work-time-previous">36hrs</p></span>
+        </div>
+      </div>
+    </div>
+    <div class="card__play">
+      <div class="card__play__bg"></div>
+      <div class="card__play__content">
+        <div class="card__play__title">
+          Play
+          <img src="images/icon-ellipsis.svg" alt="Icon of options" class="card__play__options">
+        </div>
+        <div class="card__play__infos">
+          <p class="play-time">10hrs</p>
+          <span>Previous - <p class="play-time-previous">8hrs</p></span>
+        </div>
+      </div>
+    </div>
+    <div class="card__study">
+      <div class="card__study__bg"></div>
+      <div class="card__study__content">
+        <div class="card__study__title">
+          Study
+          <img src="images/icon-ellipsis.svg" alt="Icon of options" class="card__study__options">
+        </div>
+        <div class="card__study__infos">
+          <p class="study-time">4hrs</p>
+          <span>Previous - <p class="study-time-previous">7hrs</p></span>
+        </div>
+      </div>
+    </div>
+    <div class="card__exercise">
+      <div class="card__exercise__bg"></div>
+      <div class="card__exercise__content">
+        <div class="card__exercise__title">
+          Exercise
+          <img src="images/icon-ellipsis.svg" alt="Icon of options" class="card__exercise__options">
+        </div>
+        <div class="card__exercise__infos">
+          <p class="exercise-time">4hrs</p>
+          <span>Previous - <p class="exercise-time-previous">5hrs</p></span>
+        </div>
+      </div>
+    </div>
+    <div class="card__social">
+      <div class="card__social__bg"></div>
+      <div class="card__social__content">
+        <div class="card__social__title">
+          Social
+          <img src="images/icon-ellipsis.svg" alt="Icon of options" class="card__social__options">
+        </div>
+        <div class="card__social__infos">
+          <p class="social-time">5hrs</p>
+          <span>Previous - <p class="social-time-previous">10hrs</p></span>
+        </div>
+      </div>
+    </div>
+    <div class="card__self-care">
+      <div class="card__self-care__bg"></div>
+      <div class="card__self-care__content">
+        <div class="card__self-care__title">
+          Self Care
+          <img src="images/icon-ellipsis.svg" alt="Icon of options" class="card__self-care__options">
+        </div>
+        <div class="card__self-care__infos">
+          <p class="self-care-time">2hrs</p>
+          <span>Previous - <p class="self-care-time-previous">2hrs</p></span>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <script src="js/app.js"></script>
+</body>
+</html>
